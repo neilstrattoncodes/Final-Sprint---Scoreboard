@@ -1,0 +1,15 @@
+#footer {
+  position: absolute;
+  top: 730px;
+  right: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  width: 1000px;
+  background-color: #ccc5b9;
+  border: 2px solid #eb5e28;
+  font-size: 1.5em;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}

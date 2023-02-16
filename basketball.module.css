@@ -1,0 +1,290 @@
+#background {
+  background-color: gray;
+}
+
+#scoreboard {
+  position: absolute;
+  top: 200px;
+  right: 550px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  width: 300px;
+  background-color: #ccc5b9;
+  border: 2px solid #eb5e28;
+  font-size: 1.5em;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+#player1 {
+  background-color: blueviolet;
+  padding: 2em;
+  height: 2em;
+  width: 3em;
+}
+
+#player2 {
+  background-color: red;
+  padding: 2em;
+  height: 2em;
+  width: 3em;
+}
+
+#player2pt {
+  background-color: blue;
+}
+
+#player3pt {
+  background-color: coral;
+}
+
+#p1total {
+  position: absolute;
+  top: 340px;
+  left: 370px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  width: 300px;
+  border: 2px solid #252422;
+  background-color: #936639;
+  font-size: 1em;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  border-radius: 1em;
+}
+
+#p2total {
+  position: absolute;
+  top: 340px;
+  right: 370px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  width: 300px;
+  align-items: center;
+  border: 2px solid #252422;
+  background-color: #b6ad90;
+  justify-content: center;
+  font-size: 1em;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  border-radius: 1em;
+}
+
+#p1pts2 {
+  position: absolute;
+  top: 430px;
+  left: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #b6ad90;
+  padding: 1em;
+  margin: 2em;
+  height: 5em;
+  width: 5em;
+  border-radius: 3em;
+}
+
+#p1pts3 {
+  position: absolute;
+  top: 430px;
+  left: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #c2c5aa;
+  padding: 1em;
+  margin: 2em;
+  height: 5em;
+  width: 5em;
+  border-radius: 3em;
+}
+
+#p2pts2 {
+  position: absolute;
+  top: 430px;
+  right: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #b6ad90;
+  padding: 1em;
+  margin: 2em;
+  height: 5em;
+  width: 5em;
+  border-radius: 3em;
+}
+
+#p2pts3 {
+  position: absolute;
+  top: 430px;
+  right: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #c2c5aa;
+  padding: 1em;
+  margin: 2em;
+  height: 5em;
+  width: 5em;
+  border-radius: 3em;
+}
+
+#p1name {
+  position: absolute;
+  top: 650px;
+  left: 450px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1em;
+  height: 3px;
+  width: 150px;
+  border-radius: 1em;
+}
+
+#p2name {
+  position: absolute;
+  top: 650px;
+  right: 450px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1em;
+  height: 3px;
+  width: 150px;
+  border-radius: 1em;
+}
+
+#reset {
+  position: absolute;
+  top: 550px;
+  right: 670px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: slategray;
+  padding: 1em;
+  margin: 0.5em;
+  border-radius: 2em;
+}
+
+#gamemode {
+  position: absolute;
+  top: 650px;
+  right: 670px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: slategray;
+  padding: 1em;
+  margin: 0.5em;
+  border-radius: 2em;
+}
+
+#p1submit {
+  position: absolute;
+  top: 550px;
+  left: 470px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 100px;
+  align-items: center;
+  justify-content: center;
+  background-color: #a68a64;
+  border-radius: 2em;
+}
+#p2submit {
+  position: absolute;
+  top: 550px;
+  right: 470px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 100px;
+  align-items: center;
+  justify-content: center;
+  background-color: #a68a64;
+  border-radius: 2em;
+}
+
+#p1submit:hover,
+#p2submit:hover {
+  background: #383;
+}
+
+#p1pts2:hover,
+#p2pts2:hover {
+  background: red;
+}
+
+#p1pts3:hover,
+#p2pts3:hover {
+  background: orange;
+}
+
+#p1horsescore {
+  position: absolute;
+  top: 360px;
+  left: 200px;
+  align-items: center;
+  justify-content: center;
+  font-size: 1em;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+#p2horsescore {
+  position: absolute;
+  top: 360px;
+  right: 120px;
+  height: 300px;
+  width: 500px;
+  align-items: center;
+  justify-content: center;
+  font-size: 1em;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+#p1hsubmit {
+  position: absolute;
+  top: 550px;
+  left: 470px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 100px;
+  align-items: center;
+  justify-content: center;
+  background-color: #a68a64;
+  border-radius: 2em;
+}
+
+#p2hsubmit {
+  position: absolute;
+  top: 550px;
+  right: 470px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 100px;
+  align-items: center;
+  justify-content: center;
+  background-color: #a68a64;
+  border-radius: 2em;
+}
+
+#gamemode:hover,
+#reset:hover,
+#p1hsubmit:hover,
+#p2hsubmit:hover {
+  background: #383;
+}
